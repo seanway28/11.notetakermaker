@@ -23,10 +23,6 @@ app.use(express.static("public"));
 
 // api call response for all the notes, and sends the results to the browser as an array of object
 
-app.get("/", function(err, res) {
-  return { message: "hello world"}
-});
-
 app.get("/api/notes", function(err, res) {
   try {
     // reads the notes from json file
