@@ -2,7 +2,11 @@ The challenge was to create an application called Note Taker that can be used to
 
 The front end of the application was provided in a starter code for the challenge. Our job is to build the back end, connect the two, and then deploy the entire application to Heroku.
 
-User Story
+* Sucessfully deployed on Heroku 7.18.21 *
+
+
+This is the user Story:
+
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
@@ -45,10 +49,13 @@ GET /api/notes should read the db.json file and return all saved notes as JSON.
 
 POST /api/notes should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
 
+* Sucessfully deployed via Heroku 7.18.21 *
+
+
+
+
+
 *** Did not complete the Bonus***
-
-
-This Challenge is to be graded based on the following criteria:
 
 
 Satisfies all of the preceding acceptance criteria plus the following:
